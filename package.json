@@ -11,7 +11,7 @@
     "url": "git+https://github.com/ketsugi/isIntegerish.git"
   },
   "author": "Joel Pan",
-  "license": "GPL-3.0",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/ketsugi/isIntegerish/issues"
   },
