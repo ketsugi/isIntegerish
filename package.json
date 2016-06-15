@@ -1,0 +1,23 @@
+{
+  "name": "isintegerish",
+  "version": "1.0.0",
+  "description": "A function to check if a value is an integer, or a string which parses to an integer value.",
+  "main": "isIntegerish.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketsugi/isIntegerish.git"
+  },
+  "author": "Joel Pan",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ketsugi/isIntegerish/issues"
+  },
+  "homepage": "https://github.com/ketsugi/isIntegerish#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
