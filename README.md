@@ -4,7 +4,7 @@ A function to check if a value is an integer, or a string which parses to an int
 ## Example
 
 ```JavaScript
-const isIntegerish = require('isintegerish');
+const isIntegerish = require('is-integerish');
 
 console.log(isIntegerish(10)); // true
 console.log(isIntegerish('10')); // true
