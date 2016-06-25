@@ -1,6 +1,6 @@
 {
   "name": "is-integerish",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A function to check if a value is an integer, or a string which parses to an integer value.",
   "main": "isIntegerish.js",
   "scripts": {
