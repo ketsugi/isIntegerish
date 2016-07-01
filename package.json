@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/ketsugi/isIntegerish#readme",
   "devDependencies": {
+    "blanket": "^1.2.3",
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }

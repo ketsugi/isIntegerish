@@ -1,5 +1,10 @@
 language: node_js
 node_js:
   - "6.1"
+install:
+  - npm install -g codecov
+script:
+  - NODE_ENV=test ISINTEGERISH_COVERAGE=1 ./node_modules/.bin/mocha --require blanket --reporter mocha-lcov-reporter
+  - codecov
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)

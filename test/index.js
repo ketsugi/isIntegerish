@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-
+require('blanket')({ pattern: 'isIntegerish.js' });
 const isIntegerish = require('../isIntegerish');
 
 describe('isIntegerish:', function() {
